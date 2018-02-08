@@ -105,13 +105,18 @@ padding-top: 50px
     text-align: center;
     margin-top: -39px;
     margin-bottom: -32px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 .fw-section {
     width: 100%;
     border-bottom: 4px solid #bbbbbb;
 }
-.you-container a{
-  text-decoration: none;
+.you-container a {
+    text-decoration: none;
+    margin: 0px 8px;
+    display: inline-block;
 }
 .site-footer {
     background-color: #1d1d1d;
@@ -203,11 +208,12 @@ color: #fff;
 .features-section{
   background-image: url(./../img/Triangle-White-Seamless-Patterns.jpg);
 }
-.banner-section{
-  background-image: url(./../img/banner-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  min-height: 487px
+.banner-section {
+    background-image: url(./../img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 487px;
+    padding-bottom: 70px;
 }
 .products-intro img {
     width: 100%;
@@ -216,4 +222,19 @@ color: #fff;
 .separator-section {
   margin-top: 30px;
   margin-bottom: 30px
+}
+.featured-image{
+  margin-bottom: 30px
+}
+
+@media (max-width: 628px) {
+  .you-box img {
+
+      display: none !important;
+  }
+  .you-box {
+
+    padding: 18px 18px;
+
+}
 }
