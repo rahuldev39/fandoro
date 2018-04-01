@@ -227,6 +227,111 @@ color: #fff;
   margin-bottom: 30px
 }
 
+.block-icon {
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.block-icon i {
+    font-size: 21px;
+    line-height: initial;
+    color: #ed1f24;
+    font-weight: normal;
+}
+.block.style-5 {
+    position: relative;
+}
+.block-content {
+    padding-left: 28px;
+}
+.block-content .block-title {
+    padding: 0;
+    margin: 0 0 8px 0;
+    color: #282d33;
+    font-size: 16px;
+
+}
+.form-user.style-1 {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #e2e7ec;
+}
+.form-user.style-1 .form-header {
+    padding: 11px 0;
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+}
+.form-user.style-1 .form-header .form-header-title {
+    margin: 0;
+    padding: 0;
+    color: #282d33;
+    font-size: 20px;
+}
+.form-user.style-1 .form-body {
+    padding: 25px;
+    background-color: #fff;
+}
+.btn-base-1:hover, .btn-base-1:focus, .btn-base-1:active, .btn-base-1.active, .open .dropdown-toggle.btn-base-1 {
+    color: #fff;
+    background-color: #d2181c;
+    border-color: #d2181c;
+}
+.btn-base-1 {
+    background-color: #ed1f24;
+    border: 1px solid #ed1f24;
+    color: #fff;
+    line-height: inherit;
+}
+
+.btn-lg {
+    font-size: 15px;
+    padding: 10px 36px;
+    height: 46px;
+}
+.form-user.style-1 .form-footer {
+    padding: 10px 0;
+    background-color: #ecf0f1;
+    border-top: 1px solid #ecf0f1;
+}
+.login-wrapper {
+    min-height: calc(100vh - 96px);
+    padding: 45px 0px;
+    background-image: url(./../img/Triangle-White-Seamless-Patterns.jpg);
+    position: relative;
+}
+.login-wrapper:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff8c;
+}
+.login-wrapper section{
+position: relative;
+z-index: 1
+}
+.block-heading{
+
+}
+.block-heading h2 {
+    position: relative;
+    padding-bottom: 9px;
+    margin-bottom: 23px;
+}
+.block-heading h2::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #ed1f24;
+    width: 100px;
+    left: 0px;
+    top: 100%;
+}
+.faq-section {
+    margin-top: 14px;
+}
 @media (max-width: 628px) {
   .you-box img {
 
